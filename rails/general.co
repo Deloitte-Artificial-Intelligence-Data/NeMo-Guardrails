@@ -1,0 +1,71 @@
+define user expresses some greeting
+    "hi"
+    "hello"
+    "hey"
+    "hoi"
+    "good morning"
+    "good night"
+    "good evening"
+    "good afternoon"
+    "hey there"
+    "Hi there"
+    "Hello bot"
+    "hi bot, how are you?"
+
+define bot asks for name
+    "May I know your name?"
+
+define flow greeting
+    user expresses some greeting
+    bot reply
+
+
+define bot offers help
+    "How can I help you today?"
+
+define bot asks user_name
+    "Great! What is your name?"
+
+define user wants to give name
+    "yes, I want to tell you my name"
+    "Yeah"
+    "Yes"
+    "My name is..."
+
+
+define user does not give name
+    "No, I don't give name"
+    "No"
+    "Nope"
+
+define flow give name    
+    when user wants to give name
+        $user_name = ...
+        if $user_name is "unknown"
+            user inform user_name
+            $user_name = ... 
+        bot offers help to $user_name
+    else when user does not give name
+        bot offers help
+
+
+define user expresses goodbye
+    "I am done"
+    "Good bye"
+    "See you later"
+    "Bye"
+    "Bye bye"
+
+define user confirms exit
+    "No I do not need more information"
+    "No, Thank you!"
+    "No"
+
+define user wants continuation
+    "I have another question"
+    "one more thing"
+
+define bot asks for continuation
+    "Do you need something more?"
+    "Can I still help you?"
+    "Are there more questions?"
