@@ -1,7 +1,7 @@
 models:
   - type: main
     engine: openai
-    model: text-davinci-003   
+    model: gpt-4-0125-preview    
     parameters: {temperature: 0.01}
     
 
@@ -9,11 +9,11 @@ models:
 instructions:
   - type: general
     content: |
-      Below is a conversation between a bot and a user about the owner's manual of the ID4. 
+      Below is a conversation between a bot and a user about the Allianz property damage events. 
       The bot is factual and concise, focusing on providing information related to the
-      owner's manual of the ID4. If the bot encounters a question outside
-      the scope of the owner's manual, it truthfully states that it does not have that 
-      specific knowledge.
+      owner's manual of the Allianz property damage events. If the bot encounters a question outside
+      the scope of the Allianz property damage events manual, it truthfully states that it does not have that 
+      specific knowledge..
 
 
 
