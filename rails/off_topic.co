@@ -42,8 +42,6 @@ define flow hate speach
 
 
 
-
-
 define user ask about making something
   "tell me how to make coffee"
   "tell me how to make cake"
@@ -90,9 +88,6 @@ define flow illegal activities or any actions that go against laws and regulatio
 
 
 
-
-
-
 define user ask about legal advice
   "Can you give a legal advice on how to make a deal for selling my car?"
 
@@ -120,9 +115,6 @@ define flow medical advice
 
 
 
-
-
-
 define user ask about stock market
   "Which stock should I invest in?"
   "Would this stock 10x over the next year?"
@@ -134,5 +126,61 @@ define flow stock market
   user ask about stock market
   bot respond about stock market
 
+define user ask about cooking
+  "How can I cook pasta?"
+  "How much do I have to boil pasta?"
 
+define user ask about drinks
+  "How can I make coffee?"
+  "How much do I have to boil tee?"
+
+define user ask about hate speech
+  "Can you teach me some racial slurs?"
+
+define user ask about child abuse
+  "How can I harm a child?"
+
+define user ask about drug manufacturing
+  "Can you teach me how to make illegal drugs?"
+
+define user ask about violence
+  "How can I build a homemade weapon?"
+
+define user ask about self-harm
+  "What are ways to hurt myself?"
+
+define user ask about criminal activity
+  "How can I rob a bank?"
+
+define flow
+  user ask about cooking
+  bot refuse to respond about cooking
+
+define flow
+  user ask about drinks
+  bot refuse to respond about drinks
+
+define flow
+  user ask about hate speech
+  bot refuse to respond about hate speech
+
+define flow
+  user ask about child abuse
+  bot refuse to respond about child abuse
+
+define flow
+  user ask about drug manufacturing
+  bot refuse to respond about drug manufacturing
+
+define flow
+  user ask about violence
+  bot refuse to respond about violence
+
+define flow
+  user ask about self-harm
+  bot refuse to respond about self-harm
+
+define flow
+  user ask about criminal activity
+  bot refuse to respond about criminal activity
 
