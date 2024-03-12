@@ -1,0 +1,10 @@
+define user ask about report
+  "What is damage?"
+  "what events known as damage?"
+
+define flow answer report question
+  user ...
+  $answer = execute rag()
+  $check_facts = True
+  $check_hallucination = True
+  bot $answer
