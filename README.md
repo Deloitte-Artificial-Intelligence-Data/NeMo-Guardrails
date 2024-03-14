@@ -32,8 +32,8 @@ To run the chatbot, follow these steps:
     export OPENAI_API_KEY=your_actual_openai_api_key_here
     ```
 
-2. **Run the Chat:**
+2. **Run the Chatbot server:**
     ```bash
-    nemoguardrails chat --config=rails
+    nemoguardrails server --config=rails
     ```
 
