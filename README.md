@@ -2,7 +2,7 @@
 
 Welcome to the codebase for the "Allianz" project. This README provides detailed instructions for setting up the NeMo-Guardrail chatbot project. Users can follow these steps to create a virtual environment, install dependencies, and run the chatbot.
 
-![Example GIF](NeMo-Guardrails.gif)
+![Example GIF](NeMo-Guardrails_.gif)
 
 ## Installation
 
